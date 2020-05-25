@@ -1,2 +1,0 @@
-# Avely
- Poultry Management App
