@@ -93,13 +93,17 @@ ul {
     padding: 5px;
 }
 
-.feeds {}
+.feeds .progress {
+    padding: 3px;
+    margin: 5px;
+}
 
 .feeds li {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 5px;
-    margin: 5px;
+    padding-left: 5px;
+    margin-top: 3px;
+    margin-left: 5px;
 }
 
 .health {
@@ -170,4 +174,104 @@ td {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 10px 0 20px 70px;
+}
+
+
+@media screen and (min-width: 700px) {
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    position: absolute;
+    background-color: #e5e5e5;
+    margin: 20px;
+    max-width: 1204px;
+}
+
+.welcome 
+
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    font-style: normal;
+}
+
+p span {
+    font-weight: bold;
+    font-size: 2px;
+}
+
+h3 {
+    font-size: 24px !important;
+    padding: 4px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 span {
+    font-size: 26px;
+    color: #1D3557;
+}
+
+
+.container {
+    position: absolute;
+    top: 300px;
+    margin: auto;
+    min-width: 1204px;
+    height: fit-content !important;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.sub-container1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.box {
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 245px;
+    height: fit-content;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: 8px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+header {
+    min-width: 1204px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.welcome{
+    width: 1204px;
+    
+}
+
+
+footer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    
+}
+
+.footer-image {
+    width: 1204px;
+    margin: auto;
+}
+
+
 }
