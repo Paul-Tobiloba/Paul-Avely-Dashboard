@@ -374,7 +374,7 @@ ul {
         font-size: 12px;
         line-height: 12px;
         color: #1D3557;
-        padding-top: 2px;
+        padding-top: 4px;
         padding-right: 2px;
     }
 
@@ -383,19 +383,20 @@ ul {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .grapharea {
-        max-width: 350px;
-        margin: auto;
+    #myChart {
+        width: 310px;
+        height: 195px !important;
+        line-height: 5px;
     }
 
-    #myChart {
+    .grapharea {
         background-color: rgba(69, 120, 157, .7);
-        width: 350px;
+        width: 320px;
         border-radius: 1rem;
-        max-height: 320px !important;
+        height: 200px !important;
         /* position: relative; */
         margin: auto;
-        margin-bottom: 2px;
+        margin-bottom: 4px;
         padding: 5px;
     }
 
