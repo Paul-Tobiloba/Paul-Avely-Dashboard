@@ -1,0 +1,280 @@
+@media screen and (min-width: 700px) {
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    position: absolute;
+    background-color: #e5e5e5;
+    margin: 20px;
+    max-width: 1204px;
+}
+
+.welcome 
+
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    font-style: normal;
+}
+
+p span {
+    font-weight: bold;
+    font-size: 2px;
+}
+
+h3 {
+    font-size: 24px !important;
+    padding: 4px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 span {
+    font-size: 26px;
+    color: #1D3557;
+}
+
+body {
+    background-color: #e5e5e5;
+    max-width: 375px;
+    max-height: 812px;
+    margin: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+    font-size: 14px;
+    color: #1D3557;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+}
+
+p span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 20px !important;
+    padding: 4px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 span {
+    font-size: 25px;
+    color: #1D3557;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a: hover {
+    text-decoration: none;
+}
+
+hr {
+    width: 95%;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+
+.container {
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #f2f2f2;
+    border-radius: 16px;
+    margin: auto;
+    width: 350px !important;
+    max-width: 375px;
+    height: 680px;
+    padding: 10px;
+    border: none;
+    box-shadow: inset 0px 4px 9px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+
+}
+
+.sub-container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.box {
+    background-color: #ffffff;
+    border-radius: 16px;
+    max-width: 165px;
+    height: fit-content;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: 8px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.feeds .progress {
+    padding: 3px;
+    margin: 5px;
+}
+
+.feeds li {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 5px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.health {
+    padding: 10px;
+}
+
+.health li {
+    padding: 5px;
+    margin: 8px;
+    font-weight: 500;
+}
+
+.accounting {
+    justify-content: center;
+    text-align: center;
+}
+
+.accounting h3 {
+    font-size: 20px !important;
+}
+
+td {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.inventory:hover {
+    background-color: #457B9D;
+    color: #ffffff;
+}
+
+.daily-records {
+    background-color: #457B9D;
+    color: #ffffff;
+}
+
+.welcome {
+    width: 375px;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    line-height: 17px;
+    color: #1D3557;
+    padding-top: 20px;
+}
+
+.welcome ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.image1 {
+    width: 375px;
+    position: relative;
+    margin: auto;
+    width: fit-content;
+    padding: 8px 0 20px 0;
+}
+
+.footer-image {
+    width: 375px;
+    margin: auto;
+}
+
+.footer-image ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px 0 20px 70px;
+}
+
+.container {
+    position: absolute;
+    top: 300px;
+    margin: auto;
+    min-width: 1204px;
+    height: fit-content !important;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.sub-container1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.box {
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 245px;
+    height: fit-content;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: 8px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+header {
+    min-width: 1204px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.welcome{
+    width: 1204px;
+    
+}
+
+
+footer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    
+}
+
+.footer-image {
+    width: 1204px;
+    margin: auto;
+}
+
+
+}
